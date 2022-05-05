@@ -8,3 +8,8 @@ npx prisma migrate dev => criar as tabelas depois de escrever no schema (dev => 
 npx prisma migrate deploy
 
 npx prisma studio => ver as tabelas
+
+yarn add jest -D
+npx jest --init
+yarn add ts-node -D
+yarn add @swc/core @swc/jest -D
